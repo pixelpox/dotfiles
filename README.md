@@ -8,4 +8,5 @@ repo for personal dotfiles and public keys
 mkdir ~/github
 cd ~/github
 git clone https://github.com/pixelpox/dotfiles.git
+chmod u+x ~/github/dotfilessetupLinux.sh
 ```
