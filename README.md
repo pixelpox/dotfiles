@@ -5,8 +5,13 @@ repo for personal dotfiles and public keys
 ## Setup
 
 ```bash
-mkdir ~/github
-cd ~/github
-git clone https://github.com/pixelpox/dotfiles.git
-chmod u+x ~/github/dotfilessetupLinux.sh
+wget https://raw.githubusercontent.com/pixelpox/dotfiles/master/setupDotFileScript.sh
+chmod u+x setupDotFileScript.sh
+./setupDotFileScript.sh
+```
+
+## update
+
+```bash
+git -C ~/github/dotfiles pull .
 ```
