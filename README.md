@@ -2,6 +2,12 @@
 
 repo for personal dotfiles and public keys
 
+## instal software
+
+```bash
+sudo apt-get install git openssh-server
+```
+
 ## Setup
 
 ```bash

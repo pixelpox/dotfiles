@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#https://stackoverflow.com/questions/592620/how-to-check-if-a-program-exists-from-a-bash-script?rq=1
+#command -v foo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
+
+
 #setup git folder
 if [ ! -d ~/github ] 
 then
