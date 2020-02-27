@@ -11,6 +11,10 @@ sudo apt-get install git openssh-server -y
 ## Setup
 
 ```bash
+sudo adduser simon
+```
+
+```bash
 cd ~
 wget https://raw.githubusercontent.com/pixelpox/dotfiles/master/setupDotFileScript.sh
 chmod u+x setupDotFileScript.sh
