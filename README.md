@@ -12,6 +12,7 @@ sudo apt-get install git openssh-server -y
 
 ```bash
 sudo adduser simon
+sudo usermod -aG sudo simon
 ```
 
 ```bash
