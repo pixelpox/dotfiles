@@ -19,3 +19,8 @@ fi
 
 # Make unified diff syntax the default
 alias diff="diff -u"
+
+# Docker-compose shorthand
+alias dc='docker-compose'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
