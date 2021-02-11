@@ -1,4 +1,5 @@
 alias ll='ls -lah --color=auto'
+alias llt='ls -laht --color=auto'
 alias c='clear'
 alias h='history'
 alias g='git'
