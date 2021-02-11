@@ -33,5 +33,7 @@ git reset --hard
 # '-f' is force, '-d' is remove directories.
 git clean -fd
 
+git remote update origin --prune
+
 git -C ~/github/dotfiles pull .
 ```
