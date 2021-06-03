@@ -8,6 +8,12 @@ repo for personal dotfiles and public keys
 sudo apt-get install git openssh-server -y
 ```
 
+## Add mount support
+
+```bash
+sudo apt install nfs-common cifs-utils -y
+```
+
 ## Setup
 
 ```bash
