@@ -25,3 +25,4 @@ alias diff="diff -u"
 alias dc='docker-compose'
 alias dcu='docker-compose up -d'
 alias dcd='docker-compose down'
+alias dcp='docker-compose pull'
