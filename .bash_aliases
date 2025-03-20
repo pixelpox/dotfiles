@@ -22,7 +22,7 @@ fi
 alias diff="diff -u"
 
 # Docker-compose shorthand
-alias dc='docker-compose'
-alias dcu='docker-compose up -d'
-alias dcd='docker-compose down'
-alias dcp='docker-compose pull'
+alias dc='docker compose'
+alias dcu='docker compose up -d'
+alias dcd='docker compose down'
+alias dcp='docker compose pull'
